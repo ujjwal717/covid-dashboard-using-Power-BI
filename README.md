@@ -13,5 +13,11 @@ The Various tiles in the dashboard are :-
 5) Slicer to select different states
 6) Pie Chart for states with maximum population
 7) Bar chart showing 5 states with maximum death percentage
-8) Line chart with different vaccine percentages for dose 1 and dose 2 for different states 
+8) Line chart with different vaccine percentages for dose 1 and dose 2 for different states
+
+
+**The Dashboard Image is given below :-**
+
+![indian covid dashboard screenshot](https://github.com/ujjwal717/covid-dashboard-using-Power-BI/assets/93403224/baf10442-2263-4943-8421-c48f8c8daacd)
+
 
