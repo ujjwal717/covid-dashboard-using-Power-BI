@@ -18,6 +18,7 @@ The Various tiles in the dashboard are :-
 
 **The Dashboard Image is given below :-**
 
-![indian covid dashboard screenshot](https://github.com/ujjwal717/covid-dashboard-using-Power-BI/assets/93403224/baf10442-2263-4943-8421-c48f8c8daacd)
+![final screenshot indian covid dashboard](https://github.com/ujjwal717/covid-dashboard-using-Power-BI/assets/93403224/38219317-1dc6-45cd-8557-5f51abc2afa3)
+
 
 
