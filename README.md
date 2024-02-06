@@ -49,6 +49,18 @@ The Various tiles in the dashboard are :-
    **Insight :-** It shows the top 5 states that had maximum death percentage. It means states where the deaths of patients were most, relative to their population. The data shows states such 
      as "Punjab", "Maharashtra" and "Uttrakhand" etc have high death percentage ranging from 2.46% (maximum in tile) to 1.68% (minimum in tile). 
 
+
+
+3) **States with different Vaccine Dose Percentages :-**
+
+![vaccine percentage](https://github.com/ujjwal717/covid-dashboard-using-Power-BI/assets/93403224/f1c9ce7e-89a4-4028-8edd-aad0244427c0)
+
+**Explanation :-** It is a Line Chart that has state name on the X-Axis and Dose1 Percentage on the Primary Y-Axis and Dose2 Percentage on the secondary Y-Axis. I also used top-n filter in this visual to get the 10 states according to the maximum population. We also have hovertool/tooltips that shows - "Dose1 and Dose2 Percentage", "Percentage of population of that specific state from the total population of country" so that we can effectively measure the performance of each state in terms of vaccine dosages given to their citizens. These dose1 and dose2 percentages are calculated using DAX formulas.
+
+**Insight :-** Here, we see the 10 states having maximum population and their dose1 and dose2 vaccine percentages. Gujarat has performed really well with best dose1 percentage. Maharashtra is among 3 states in india in terms of maximum population and accounts around 12.24% of overall population and is also among top 10 states(in terms of population) having vaccine dose1 percentage of more than 70% which is really great. On the other hand, states such as Bihar have not performed that well if we compare it with states such as Gujarat,Andhra Pradesh, Karnataka and more. Also, **it is important to note that I have considered dose1 percentage as primary parameter as around the time dose1 was given, there were still restrictions of moving and travelling and therefore it shows/provides best parameter to analyse the performance of a state in terms of giving vaccine. Also during dose2, people can travel and were also allowed to take vaccine in other states as well, so it does not serve as a primary parameter**.
+
+     
+
    
 
 
