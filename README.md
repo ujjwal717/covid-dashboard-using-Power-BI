@@ -37,7 +37,7 @@ The Various tiles in the dashboard are :-
 
 
 
-2) **States with Maximum Death Percentage :-**
+2) **States with Maximum Death Percentage**
 
 
 ![column chart image](https://github.com/ujjwal717/covid-dashboard-using-Power-BI/assets/93403224/c0dbb407-5a39-4c1d-b4f5-5050ec058c94)
@@ -51,13 +51,24 @@ The Various tiles in the dashboard are :-
 
 
 
-3) **States with different Vaccine Dose Percentages :-**
+3) **States with different Vaccine Dose Percentages**
 
 ![vaccine percentage](https://github.com/ujjwal717/covid-dashboard-using-Power-BI/assets/93403224/f1c9ce7e-89a4-4028-8edd-aad0244427c0)
 
 **Explanation :-** It is a Line Chart that has state name on the X-Axis and Dose1 Percentage on the Primary Y-Axis and Dose2 Percentage on the secondary Y-Axis. I also used top-n filter in this visual to get the 10 states according to the maximum population. We also have hovertool/tooltips that shows - "Dose1 and Dose2 Percentage", "Percentage of population of that specific state from the total population of country" so that we can effectively measure the performance of each state in terms of vaccine dosages given to their citizens. These dose1 and dose2 percentages are calculated using DAX formulas.
 
 **Insight :-** Here, we see the 10 states having maximum population and their dose1 and dose2 vaccine percentages. Gujarat has performed really well with best dose1 percentage. Maharashtra is among 3 states in india in terms of maximum population and accounts around 12.24% of overall population and is also among top 10 states(in terms of population) having vaccine dose1 percentage of more than 70% which is really great. On the other hand, states such as Bihar have not performed that well if we compare it with states such as Gujarat,Andhra Pradesh, Karnataka and more. Also, **it is important to note that I have considered dose1 percentage as primary parameter as around the time dose1 was given, there were still restrictions of moving and travelling and therefore it shows/provides best parameter to analyse the performance of a state in terms of giving vaccine. Also during dose2, people can travel and were also allowed to take vaccine in other states as well, so it does not serve as a primary parameter**.
+
+
+4) **States with Maxmimum Population**
+
+![maximum population](https://github.com/ujjwal717/covid-dashboard-using-Power-BI/assets/93403224/e752239e-2c19-4c2e-a761-a28202bf74a3)
+
+
+**Explanation :-** It is a pie chart that has 3 states having maxuimum population. It shows the count of population as well as their relative percentages.
+
+**Insight :-** The states that have massive amount of population, it is really difficult for those states to carry out vaccine implementation at effective rate which is the reason why I kept this visua/tile. It was discussed in previous visual that despite of massive population of Maharashtra, it has performed really good.
+
 
      
 
